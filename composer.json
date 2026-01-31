@@ -1,11 +1,11 @@
 {
-    "name": "shez1983/livewire-recaptcha",
+    "name": "dutchcodingcompany/livewire-recaptcha",
     "description": "Add Google Recaptcha V3 support to your Laravel Livewire components",
     "keywords": [],
-    "homepage": "https://github.com/shez1983/livewire-recaptcha",
+    "homepage": "https://github.com/dutchcodingcompany/livewire-recaptcha",
     "license": "MIT",
     "require": {
-        "php": "^8.3",
+        "php": "^8.2",
         "livewire/livewire": "^3.0|^4.0"
     },
     "require-dev": {
@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Shez1983\\LivewireRecaptcha\\": "src/",
-            "Shez1983\\LivewireRecaptcha\\Tests\\": "tests/"
+            "DutchCodingCompany\\LivewireRecaptcha\\": "src/",
+            "DutchCodingCompany\\LivewireRecaptcha\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shez1983\\LivewireRecaptcha\\LivewireRecaptchaServiceProvider"
+                "DutchCodingCompany\\LivewireRecaptcha\\LivewireRecaptchaServiceProvider"
             ]
         }
     },
